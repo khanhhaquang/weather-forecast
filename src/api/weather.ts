@@ -1,7 +1,8 @@
 import axios from 'axios';
+import { META_WEATHER_DOMAIN } from 'config';
 
 const instance = axios.create({
-  baseURL: 'https://www.metaweather.com/api',
+  baseURL: `${META_WEATHER_DOMAIN}/api`,
 });
 
 export default instance;
