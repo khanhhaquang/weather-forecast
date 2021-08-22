@@ -15,34 +15,3 @@ const App = () => (
 );
 
 export default App;
-
-// {
-//   "eslint.validate": [
-//     "javascript",
-//     "javascriptreact",
-//     "typescript",
-//     "typescriptreact"
-//   ],
-//   "[javascriptreact]": {
-//     "editor.codeActionsOnSave": {
-//       "source.fixAll.eslint": true
-//     }
-//   },
-//   "editor.formatOnSave": true,
-//   "[typescript]": {
-//     "editor.formatOnSave": false,
-//     "editor.codeActionsOnSave": {
-//       "source.fixAll.eslint": true
-//     }
-//   },
-//   "[typescriptreact]": {
-//     "editor.formatOnSave": false,
-//     "editor.codeActionsOnSave": {
-//       "source.fixAll.eslint": true
-//     }
-//   },
-//   "editor.renderWhitespace": "boundary",
-//   "editor.codeActionsOnSave": {
-//     "source.fixAll.eslint": true
-//   }
-// }

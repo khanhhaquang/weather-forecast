@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home/WeatherPanel should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM gCZTqE"
+    data-testid="weather-card-1"
+  >
+    <h2
+      class="sc-gtsrHT ebtAAb"
+    >
+      Friday
+    </h2>
+    <div
+      class="sc-dlnjwi QbBjM"
+    >
+      <img
+        alt="state"
+        height="24"
+        src="https://meta-weather.now.sh/static/img/weather/png/64/bar.png"
+        width="24"
+      />
+      <span>
+        foo
+      </span>
+    </div>
+    <span>
+      Max: 20°C
+    </span>
+    <span>
+      Min: 10°C
+    </span>
+  </div>
+</DocumentFragment>
+`;

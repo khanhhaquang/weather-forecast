@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import styled from 'styled-components';
-import { getErrorMessage } from '../reducer';
+import { getErrorMessage } from '../redux/reducer';
 
 const StyledWrapper = styled.span`
   color: red;

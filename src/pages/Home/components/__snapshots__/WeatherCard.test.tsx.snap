@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home/WeatherCard should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdnxRM gCZTqE"
+  >
+    <h2
+      class="sc-gtsrHT ebtAAb"
+    >
+      Friday
+    </h2>
+    <div
+      class="sc-dlnjwi QbBjM"
+    >
+      <img
+        alt="state"
+        height="24"
+        src="https://meta-weather.now.sh/static/img/weather/png/64/abc.png"
+        width="24"
+      />
+      <span>
+        xyz
+      </span>
+    </div>
+    <span>
+      Max: 3°C
+    </span>
+    <span>
+      Min: 2°C
+    </span>
+  </div>
+</DocumentFragment>
+`;

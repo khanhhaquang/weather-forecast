@@ -5,6 +5,9 @@ import { getWeekDay, roundVal } from '../helpers';
 const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  background-color: lightblue;
+  border-radius: 4px;
+  padding: 8px;
 `;
 
 const DateText = styled.h2`
@@ -17,8 +20,8 @@ const DateText = styled.h2`
 const StateWrapper = styled.div`
   display: flex;
   margin-bottom: 16px;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 18px;
 
   span {
     margin-left: 4px;
@@ -33,8 +36,15 @@ type TProps = {
   stateName: string;
 };
 
-const WeatherCard: React.FC<TProps> = ({ minTemp, maxTemp, day, stateImg, stateName }: TProps) => (
-  <StyledWrapper>
+const WeatherCard: React.FC<TProps> = ({
+  minTemp,
+  maxTemp,
+  day,
+  stateImg,
+  stateName,
+  ...rest
+}: TProps) => (
+  <StyledWrapper {...rest}>
     <DateText>{getWeekDay(new Date(day))}</DateText>
     <StateWrapper>
       <img

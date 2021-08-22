@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-jSFjdj EJfNd"
+  >
+    <input
+      class="sc-hKFxyN dkcVOX"
+      data-testid="search-input"
+      placeholder="Which city do you want to check ?"
+      value=""
+    />
+    <div
+      class="sc-gKAaRy jYknsn"
+    />
+  </div>
+</DocumentFragment>
+`;

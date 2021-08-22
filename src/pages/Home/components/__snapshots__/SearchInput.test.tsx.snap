@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home/SearchInput should render correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="sc-bdnxRM iFwihy"
+    data-testid="search-input"
+    placeholder="Which city do you want to check ?"
+    value=""
+  />
+</DocumentFragment>
+`;

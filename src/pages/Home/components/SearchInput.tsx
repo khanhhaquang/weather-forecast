@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import { useDebounce } from 'hooks';
-import { getWeather } from '../actions';
+import { getWeather } from '../redux/actions';
 
 const Input = styled.input`
   outline: none;
@@ -22,7 +22,7 @@ const Input = styled.input`
 
 const SearchInput: React.FC = () => {
   const [value, setValue] = useState<string>('');
-  const debouncedSearchValue = useDebounce(value);
+  const debouncedSearchValue = useDebounce<string>(value);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -33,6 +33,7 @@ const SearchInput: React.FC = () => {
 
   return (
     <Input
+      data-testid="search-input"
       placeholder="Which city do you want to check ?"
       value={value}
       onChange={(e) => setValue(e.target.value)}
