@@ -18,3 +18,34 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// {
+//   "eslint.validate": [
+//     "javascript",
+//     "javascriptreact",
+//     "typescript",
+//     "typescriptreact"
+//   ],
+//   "[javascriptreact]": {
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": true
+//     }
+//   },
+//   "editor.formatOnSave": true,
+//   "[typescript]": {
+//     "editor.formatOnSave": false,
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": true
+//     }
+//   },
+//   "[typescriptreact]": {
+//     "editor.formatOnSave": false,
+//     "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": true
+//     }
+//   },
+//   "editor.renderWhitespace": "boundary",
+//   "editor.codeActionsOnSave": {
+//     "source.fixAll.eslint": true
+//   }
+// }
